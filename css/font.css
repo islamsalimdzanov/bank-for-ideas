@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('../fonts/oswald/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Kanit Regular';
+    src: url('../fonts/kanit/Kanit-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Teko Regular';
+    src: url('../fonts/teko/Teko-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Geologica Regular';
+    src: url('../fonts/geologica/Geologica-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Geologica black';
+    src: url('../fonts/geologica/Geologica-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Geologica SemiBold';
+    src: url('../fonts/geologica/Geologica-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Geologica Thin';
+    src: url('../fonts/geologica/Geologica-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-brands-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url('../fonts/fontAwesome/fa-solid-900.woff2');
+    font-weight: 900;
+}
+
+.fa {
+    display: inline-block;
+    font-family: 'Font Awesome';
+    font-style: normal;
+}

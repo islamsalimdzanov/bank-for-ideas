@@ -1,0 +1,490 @@
+@import 'font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+:root {
+    --primary-color: blue;
+    --secondary-color: white;
+    --black: #323232;
+    --oswald: 'Oswald Regular';
+    --kanit: 'Kanit Regular';
+    --teko: 'Teko Regular';
+    --geologica-reg: 'Geologica Regular';
+    --geologica-black: 'Geologica Black';
+    --geologica-semibold: 'Geologica SemiBold';
+    --geologica-thin: 'Geologica Thin';
+}
+
+/* .container {
+    margin: 0;
+    max-width: 1000px;
+    width: 100%;
+} */
+
+/* HOMEPAGE START */
+
+/* HEADER START */
+
+.header__logo::before {
+    content: url(../img/logo\ white.png);
+}
+
+.navbar {
+    margin-top: -40px;
+}
+
+.header__navbar {
+    background-color: var(--primary-color);
+    height: 120px;
+}
+
+.header__logo {
+    margin-left: -30px;
+} 
+
+.header__link {
+    display: flex;
+    color: var(--secondary-color);
+    font-size: 25px;
+    line-height: 15px;
+    font-family: var(--oswald);
+    margin-right: 30px;
+    padding: 15px;
+}
+
+
+.header__link:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transform: none;
+    transition: 0.5s;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.header__button:hover {
+    color: var(--secondary-color);
+}
+
+.header__content {
+    margin-top: 50px;
+}
+
+.header__content-ceo {
+    text-align: center;
+    position: relative;
+    left: 200px;
+}  
+
+.header__content-ceoimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.header__content-ceotitle {
+    font-family: var(--geologica-semibold);
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.header__content-ceotitle2 {
+    font-family: var(--geologica-reg);
+    font-size: 18px;
+}
+
+.header__content-ceoparagraf {
+    font-family: var(--geologica-semibold); 
+    position: relative;
+    left: 300px;
+    width: 50%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+.header__content-first {
+    display: flex;
+    flex-direction: row;
+} 
+
+.header__content-market {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+}
+
+.header__content-title {
+    font-family: var(--kanit);
+    font-size: 40px;
+    color: var(--primary-color);
+}
+
+.header__content-text {
+    font-family: var(--geologica-reg);
+    font-size: 25px;
+    width: 70%;
+}
+
+.header__content-ul {
+    margin-top: 20px;
+}
+
+.header__content-ultitle {
+    color: var(--primary-color);
+    font-family: var(--geologica-reg);
+}
+
+.header__content-li {
+    margin-top: 8px;
+    font-family: var(--geologica-black);
+    font-size: 15px;
+    margin-left: 360px;
+    text-align: justify;
+    list-style: disc;
+}
+
+.try__now {
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--primary-color);
+    font-family: var(--geologica-black);
+    color: var(--secondary-color);
+    border: none;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.header_content-service {
+    text-align: center;
+}
+
+ .carousel-indicators {
+    display: none;
+    /*position: relative;
+    top: 300px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);*/
+} 
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 60px;
+    
+}
+
+/* .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: var(--primary-color);
+    opacity: 1 !important;
+} 
+
+.carousel-control-prev {
+    position: relative;
+    right: 50px;
+}
+
+.carousel-control-next {
+    position: relative;
+    right: 50px;
+} */
+
+
+
+
+/* HEADER END */
+
+
+
+/* MAIN START */
+
+.main {
+    margin-top: 50px;
+}
+
+.main__content-title {
+    text-align: center;
+    color: var(--secondary-color);
+    font-family: var(--oswald);
+    padding: 20px;
+}
+
+
+.title__bc {
+    background-color: var(--primary-color);
+}
+
+.main__cards {
+    padding: 15px 30px 30px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: var(--primary-color);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 250px;
+    height: 430px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    /* margin: 15px 30px 30px 15px; */
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.worker__title {
+    font-size: 20px;
+    line-height: 15px;
+    color: var(--secondary-color);
+    font-family: var(--geologica-reg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    
+.worker__title2 {
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--secondary-color);
+    font-family: var(--geologica-reg);
+    margin-top: 10px;
+    text-align: center;
+    /* margin-left: 15px; */
+}
+
+.worker__description {
+    height: 30%;
+    width: 80%;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--secondary-color);
+    font-family: var(--geologica-reg);
+    margin-top: 5px;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.worker__img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.worker__btn {
+    width: 130px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    font-family: var(--geologica-black);
+    color: var(--primary-color);
+    border: none;
+    margin-top: 35px;
+}
+
+
+/* MAIN END */
+
+
+
+/* FOOTER START */
+
+.footer {
+    background: var(--primary-color);
+}
+
+.footer__logo::before {
+    content: url(../img/logo\ white.png);
+}
+  
+.tel {
+    font-family: var(--geologica-semibold);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--secondary-color);
+    margin-top: 45px;
+}
+  
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.footer__list-link {
+    font-size: 20px;
+    line-height: 23px;
+    font-family: var(--geologica-reg);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+
+.footer__list-link:hover {
+    color: var(--secondary-color);
+}
+  
+.footer__mail {
+    color: var(--secondary-color);
+    font-family: var(--geologica-reg);
+    margin-top: 80px;
+    padding: 20px 0;
+}
+  
+.mail {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: var(--geologica-semibold);
+}
+
+
+
+/* FOOTER END */
+
+/* HOMEPAGE END */
+
+
+
+/* ABOUT US PAGE START */
+
+
+
+/* HEADER START */
+
+
+/* HEADER END */
+
+
+
+/* MAIN START */
+
+.page__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__main-img {
+    width: 850px;
+    border-radius: 15px;
+}
+
+.page__main-description {
+    margin-top: 30px;
+    font-family: var(--geologica-semibold);
+    color: black;
+    text-align: justify;
+}
+
+
+
+
+/* MAIN END */
+
+/* FOOTER START */
+
+.footer__2 {
+    margin-top: 30px;
+}
+
+/* FOOTER END */
+
+
+/* ABOUT US PAGE END */
+
+
+
+/* OUR SERVICES PAGE START */
+
+.content__main-div1 {
+    background-color: var(--primary-color);
+}
+
+.content__main-title {
+    text-align: center;
+    color: var(--secondary-color);
+    font-family: var(--oswald);
+    padding: 20px;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content__main-btn {
+    color: var(--primary-color);
+    font-family: var(--geologica-semibold);
+    font-size: 20px;
+    padding: 30px;
+}
+
+.content__main-btn:hover {
+    color: var(--primary-color);
+}
+
+.content__card {
+    height: 500px;
+}
+
+.btn-worker {
+    margin-top: 50px;
+}
+
+.card-description {
+    width: 70%;
+    margin-top: -5px;
+}
+
+/* .content__main-btn:hover {
+    border-bottom: 2px solid blue;
+    color: var(--primary-color);
+} */
+
+.content__main-btn.active {
+    border-bottom: 2px solid blue;
+}
+
+.shopify-img {
+    width: 185px;
+    margin-top: -15px;
+}
+
+.desc-card {
+    margin-top: -22px;
+}
+
+/* .active {
+    list-style: circle;
+} */
+
+
+
+
+
+
+
+/* OUR SERVICES PAGE END */
